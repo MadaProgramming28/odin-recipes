@@ -1,0 +1,72 @@
+/* Reset simplu */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #fffaf0;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #d2691e;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.links a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ffa07a;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.links a:hover {
+    background-color: #ff7f50;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+ul, ol {
+    text-align: left;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+a {
+    color: #d2691e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+}

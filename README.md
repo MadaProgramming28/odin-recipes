@@ -1,1 +1,3 @@
-# odin-recipes
+Odin Recipes Project
+
+Brief description above...
